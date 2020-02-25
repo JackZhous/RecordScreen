@@ -147,10 +147,8 @@ public class ScreenManager extends Thread{
             if (sync) {
                 System.arraycopy(mPpsSps, 0, h264, 0, mPpsSps.length);
                 buffer.get(h264, mPpsSps.length, mBufferVideo.size);
-                LogHelper.de_i("push");
                 pusher.push(h264, 0, mPpsSps.length + mBufferVideo.size, mBufferVideo.presentationTimeUs / 1000, 2);
             } else {
-                LogHelper.de_i("push");
                 buffer.get(h264, 0, mBufferVideo.size);
                 pusher.push(h264, 0, mBufferVideo.size, mBufferVideo.presentationTimeUs / 1000, 1);
             }

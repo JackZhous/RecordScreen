@@ -1,6 +1,7 @@
 package com.jz.jcamera.p;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
 import android.media.projection.MediaProjection;
 
@@ -8,6 +9,7 @@ import com.jz.jcamera.media.AudioManager;
 import com.jz.jcamera.media.Push;
 import com.jz.jcamera.media.ScreenManager;
 import com.jz.jcamera.util.Config;
+import com.jz.jcamera.util.LogHelper;
 import com.jz.jcamera.util.ToastHelper;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 
@@ -23,15 +25,15 @@ public class RecorderPresenter {
     private AudioManager mAudioManger;
     private Push mRtmpClient;
 
-    public Context mCtx;
+    public Activity mCtx;
 
-    public RecorderPresenter(Context mCtx) {
+    public RecorderPresenter(Activity mCtx) {
         this.mCtx = mCtx;
     }
 
     public void init(MediaProjection mp, String url){
         mRtmpClient = new EasyRTMP(EasyRTMP.VIDEO_CODEC_H264, Config.RTMP_KEY);
-        mRtmpClient.initPush(url, mCtx, code -> ToastHelper.show(mCtx, code+""));
+        mRtmpClient.initPush(url, mCtx, code -> LogHelper.de_i(code+""));
         mScreenManger = new ScreenManager.Builder()
                                 .setDensity(Config.DENSITY)
                                 .setHeight(Config.VIDEO_HEIGHT)
@@ -58,6 +60,7 @@ public class RecorderPresenter {
     public void stop(){
         mScreenManger.stopScreen();
         mAudioManger.stop();
+        mRtmpClient.stop();
     }
 
 
