@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "/home/jz/workplace/JRecorder/app/src/main/cpp/recorder/CMakeLists.txt",
+    "/home/jz/Library/android/ndk/build/cmake/android.toolchain.cmake",
+    "/home/jz/workplace/JRecorder/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/jz/Library/android/sdk/cmake/3.10.2.4988404/bin/cmake --build /home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/release/x86 --target clean"
+  ],
+  "libraries": {
+    "recorder-Release-x86": {
+      "artifactName": "recorder",
+      "buildCommand": "/home/jz/Library/android/sdk/cmake/3.10.2.4988404/bin/cmake --build /home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/release/x86 --target recorder",
+      "abi": "x86",
+      "output": "/home/jz/workplace/JRecorder/app/build/intermediates/cmake/release/obj/x86/librecorder.so"
+    }
+  }
+}

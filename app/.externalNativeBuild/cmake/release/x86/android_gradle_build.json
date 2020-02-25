@@ -1,0 +1,80 @@
+{
+  "stringTable": {
+    "0": "/home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/release/x86/recorder",
+    "1": "-isystem /home/jz/Library/android/ndk/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG  -fPIC  "
+  },
+  "buildFiles": [
+    "/home/jz/workplace/JRecorder/app/src/main/cpp/recorder/CMakeLists.txt",
+    "/home/jz/Library/android/ndk/build/cmake/android.toolchain.cmake",
+    "/home/jz/workplace/JRecorder/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/jz/Library/android/sdk/cmake/3.10.2.4988404/bin/cmake --build /home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/release/x86 --target clean"
+  ],
+  "libraries": {
+    "recorder-Release-x86": {
+      "buildCommand": "/home/jz/Library/android/sdk/cmake/3.10.2.4988404/bin/cmake --build /home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/release/x86 --target recorder",
+      "buildType": "release",
+      "toolchain": "3578989457",
+      "abi": "x86",
+      "artifactName": "recorder",
+      "files": [
+        {
+          "src": "/home/jz/workplace/JRecorder/app/src/main/cpp/recorder/../common/AVFrameFilter.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jz/workplace/JRecorder/app/src/main/cpp/recorder/../common/AVMediaWriter.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jz/workplace/JRecorder/app/src/main/cpp/recorder/../common/AVFormatter.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jz/workplace/JRecorder/app/src/main/cpp/recorder/../common/AVMediaData.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jz/workplace/JRecorder/app/src/main/cpp/recorder/../common/YUVConvertor.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jz/workplace/JRecorder/app/src/main/cpp/recorder/../common/YUVData.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jz/workplace/JRecorder/app/src/main/cpp/recorder/android/RecorderNative.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jz/workplace/JRecorder/app/src/main/cpp/recorder/src/Recorder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/jz/workplace/JRecorder/app/src/main/cpp/recorder/src/RecordParams.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/home/jz/workplace/JRecorder/app/build/intermediates/cmake/release/obj/x86/librecorder.so"
+    }
+  },
+  "toolchains": {
+    "3578989457": {
+      "cppCompilerExecutable": "/home/jz/Library/android/ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

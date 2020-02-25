@@ -1,0 +1,19 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/jz/Library/android/ndk/build/cmake/android.toolchain.cmake",
+    "/home/jz/workplace/JRecorder/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/jz/Library/android/sdk/cmake/3.10.2.4988404/bin/cmake --build /home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {},
+  "toolchains": {
+    "1502045920": {
+      "cCompilerExecutable": "/home/jz/Library/android/ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/jz/Library/android/ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}

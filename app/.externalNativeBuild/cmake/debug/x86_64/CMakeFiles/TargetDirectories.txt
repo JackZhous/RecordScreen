@@ -1,0 +1,5 @@
+/home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/debug/x86_64/recorder/CMakeFiles/rebuild_cache.dir
+/home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/debug/x86_64/recorder/CMakeFiles/edit_cache.dir
+/home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/debug/x86_64/recorder/CMakeFiles/recorder.dir

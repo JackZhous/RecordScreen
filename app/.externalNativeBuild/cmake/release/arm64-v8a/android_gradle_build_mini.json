@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "/home/jz/workplace/JRecorder/app/src/main/cpp/recorder/CMakeLists.txt",
+    "/home/jz/Library/android/ndk/build/cmake/android.toolchain.cmake",
+    "/home/jz/workplace/JRecorder/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/jz/Library/android/sdk/cmake/3.10.2.4988404/bin/cmake --build /home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "recorder-Release-arm64-v8a": {
+      "artifactName": "recorder",
+      "buildCommand": "/home/jz/Library/android/sdk/cmake/3.10.2.4988404/bin/cmake --build /home/jz/workplace/JRecorder/app/.externalNativeBuild/cmake/release/arm64-v8a --target recorder",
+      "abi": "arm64-v8a",
+      "output": "/home/jz/workplace/JRecorder/app/build/intermediates/cmake/release/obj/arm64-v8a/librecorder.so"
+    }
+  }
+}
